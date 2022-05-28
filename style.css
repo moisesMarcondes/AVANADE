@@ -1,25 +1,30 @@
+
+body {margin: 0cm;
+ 
+}
+
 #esquerdacima {
-    width: 200px;
-		height: 200px;
-		background-color: #F23005}
+    width: 100px;
+		height: 100px; position: absolute;top: 0cm;left: 0cm;
+		background-color:red}
 
 #direitocima {
-    width: 200px;
-    height: 200px; position: absolute;top: 0cm;right: 0cm;
+    width: 100px;
+    height: 100px; position: absolute;top: 0cm;right: 0cm;
     background-color:yellow
 
 }
 
-#esquerdobaixo { width: 200px;
-    height: 200px; position: absolute;bottom: 0cm;left: 0cm;
+#esquerdobaixo { width:100px;
+    height: 100px; position: absolute;bottom: 0cm;left: 0cm;
     background-color:green
 
 
 }
 
 #direitobaixo {
-    width: 200px;
-    height: 200px; position: absolute;bottom: 0cm;right: 0cm;
+    width: 100px;
+    height: 100px; position: absolute;bottom: 0cm;right: 0cm;
     background-color:blue
 
 }
