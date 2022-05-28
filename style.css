@@ -1,0 +1,25 @@
+#esquerdacima {
+    width: 200px;
+		height: 200px;
+		background-color: #F23005}
+
+#direitocima {
+    width: 200px;
+    height: 200px; position: absolute;top: 0cm;right: 0cm;
+    background-color:yellow
+
+}
+
+#esquerdobaixo { width: 200px;
+    height: 200px; position: absolute;bottom: 0cm;left: 0cm;
+    background-color:green
+
+
+}
+
+#direitobaixo {
+    width: 200px;
+    height: 200px; position: absolute;bottom: 0cm;right: 0cm;
+    background-color:blue
+
+}
