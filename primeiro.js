@@ -1,36 +1,50 @@
+function soma(n1, n2) {
+    return n1 + n2;
+}
+
+
+
 // 1 - Crie uma função que retorne o seu nome
 
-function nome(Moisés) {
-   return "Moisés";
-  }
-  
+function meuNome() {
+    return "Moisés";
+}
+
 // 2 - Crie uma função que retorne o nome passado por parâmetro
 
-var nome1 = "Moisés"
-var nome2 = "gustava"
-
-  function nome(nome1, nome2) {
-    return "Moisés";
-   }
-
-
+function retornaNomePassadoPorParametro(nome) {
+    return nome;
+}
 
 // 3 - Faça uma função para dividir 2 números
-   function divisao() {
-    return 15 / 18;
-   }
-console.log (divisao())
 
+function divisao(n1, n2) {
+    return n2 === 0 ? 0 : n1 / n2;
+    // if (n2 === 0) {
+    //     return 0;
+    // }
+    // return n1 / n2;
+}
 
-// 4 faça uma função que retorne um array com o nome dos alunos presentes na aula
-   var nomesDosAlunos = ["Cassia","Felipe","Nilce","Erick","Moisés","André"];
-   
-   function Aula(nomeDosAluno)
-   {
-           return nomeDosAluno
-   
-     }
+// 4 - faça uma função que retorne um array com o nome dos alunos presentes na aula
 
-     console.log (nomesDosAlunos)
+function alunosPresentes() {
+    return ["André", "Erick", "Cassia", "Felipe", "Nilce", "Moisés"];
+}
 
-     // 5 - faça uma função que recebe um array e um valor, adicione o valor no array e retorne o array
+// 5 - faça uma função que recebe um array e um valor, adicione o valor no array e retorne o array
+
+function adicionarAoArray(arr, valor) {
+    arr.push(valor);
+    return arr;
+}
+
+function filtro(filho) {
+    return filho.nome === "Ana";
+}
+
+pessoa.filhos.filter(filtro)
+
+pessoa.filhos.filter((filho) => {
+    return filho.nome === "Ana";
+})
